@@ -2,7 +2,7 @@ import React from "react"
 
 class Search extends React.Component {
     state = {
-        search: "iron",
+        search: "",
         type: "all"
     }
 
