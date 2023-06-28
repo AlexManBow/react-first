@@ -26,7 +26,7 @@ const Search = (props) => {
                     type='search'
                     value={search}
                     onChange={(event) => setSeach(event.target.value)}
-                    onKeyDown={this.handleKey}
+                    onKeyDown={handleKey}
                 />
                 <button
                     className='btn search-btn'
